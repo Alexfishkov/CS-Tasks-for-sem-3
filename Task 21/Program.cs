@@ -16,6 +16,6 @@ int Yb = Int32.Parse(Console.ReadLine());
 Console.Write("Введите координату Z второй точки=>");
 int Zb = Int32.Parse(Console.ReadLine());
 
-double result = Math.Sqrt(Math.Pow(Xb-Xa,2)+Math.Pow(Yb-Ya,2)+Math.Pow(Zb-Za,2));
+double result = Math.Sqrt(Math.Pow(Xb-Xa,2.0)+Math.Pow(Yb-Ya,2.0)+Math.Pow(Zb-Za,2.0));
 
 Console.WriteLine($"Расстояние между этими точками составляет:{result:f2}");
